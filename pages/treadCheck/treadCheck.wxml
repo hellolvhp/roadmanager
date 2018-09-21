@@ -1,0 +1,4 @@
+<!--pages/treadCheck/treadCheck.wxml-->
+<view>
+  <web-view src="{{url}}"></web-view>
+</view>

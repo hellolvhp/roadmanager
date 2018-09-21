@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<button open-type="getWeRunData"></button>
+<button open-type="getLocation"></button>
+
+<view class="maincontain" >
+    <view class="item1"><button class="bc_green" bindtap='bindViewTap'>
+    {{tread_check_message_button}}</button></view>
+      <view class="item2"><button class="bc_red" bindtap='bindViewTap2'>{{tread_check_rank_button}}</button></view>
+       <view class="item3"><button class="bc_blue" bindtap='bindViewTap3'>{{tread_check_button}}</button></view>
+  </view>
+
+ 

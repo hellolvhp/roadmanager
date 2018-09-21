@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/treadCheckRank/treadCheckRank",
+    "pages/treadCheck/treadCheck"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "路长制",
+    "navigationBarTextStyle": "black"
+  }
+}

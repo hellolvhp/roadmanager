@@ -1,0 +1,5 @@
+<view class="container log-list">
+  <block wx:for="{{ranks}}" wx:for-item="rank">
+    <text class="log-item">{{rank.stepNum}}</text>
+  </block>
+</view>
