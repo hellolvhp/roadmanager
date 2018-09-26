@@ -3,7 +3,12 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/treadCheckRank/treadCheckRank",
-    "pages/treadCheck/treadCheck"
+    "pages/treadCheck/treadCheck",
+    "pages/problemDispatch/problemDispatch",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/questionAccount/questionAccount",
+    "pages/messageList/messageList"
   ],
   "window": {
     "backgroundTextStyle": "light",

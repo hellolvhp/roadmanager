@@ -1,0 +1,2 @@
+<!--pages/problemDispatch/problemDispatch.wxml-->
+<text>{{problemtitle}}</text>

@@ -1,0 +1,4 @@
+<button bindtap="enterMessageList">消息</button>
+<button>踏查步数排行</button>
+<button>踏查</button>
+<button>问题台帐</button>

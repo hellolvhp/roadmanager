@@ -1,35 +1,23 @@
-// pages/treadCheckRank/treadCheckRank.js
-const util = require('../../utils/util.js')
+// pages/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    ranks:[]
-  },
 
+  },
+  enterMessageList: function () {
+    console.log('进来了');
+    wx.navigateTo({
+      url: '../messageList/messageList'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this
-    wx.request({
-      url: 'http://localhost:8080/loitplat_roadmanager/a/wx/getTreadCheckRank',
-      success: function (res) {
-        if (res.data.retCode=='0'){
-          that.setData({ranks:res.data.tList})
-        }else{
-          wx.showToast({
-            title: res.data.retMsg,
-            icon: 'none',
-            duration: 2000
-          })
-        }
-      }
-    }) 
-    //1、调用小程序API:wx.login获取code和sessionKey；
-    
+
   },
 
   /**

@@ -1,0 +1,20 @@
+<!--pages/messageList/messageList.wxml-->
+<view class='message_type'>
+  <text class='unReadMessage'  bindtap='unReadMessage'>未读消息</text>
+  <text class='readMessage'    bindtap='readMessage'>已读消息</text>
+</view>
+<view class='content'>
+  <view class='content-item' wx:for="{{messageList}}" id='{{item.id}}' bindtap='checkMessage'>
+  <view wx:if="{{ item.messageType == '1'}}">反馈</view>
+  <view wx:if="{{ item.messageType == '2'}}">踏查</view>
+  <view wx:if="{{ item.messageType == '3'}}">问题</view>
+    <view class='content-item-messageInfo'>
+      <text>{{item.messageInfo}}</text>
+    </view>
+     <view class='content-item-updateDate'>
+      <text>{{item.createDate}}</text>
+    </view>
+     <view class="line"></view> 
+  </view>    
+</view>
+
